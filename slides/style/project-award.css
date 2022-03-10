@@ -137,6 +137,11 @@ img {
     overflow: hidden;
 }
 
+.container-slide.full-screen img {
+    aspect-ratio: 16/9;
+    height: unset !important;
+}
+
 .container-slide.full-screen h2 {
     display: none !important;
 }

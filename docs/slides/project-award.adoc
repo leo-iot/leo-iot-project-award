@@ -25,6 +25,9 @@ image:project-award/corona.png[]
 [.custom-slide.container-slide]
 == Preview
 
+[.custom-slide.container-slide]
+=== LeoBox
+
 [.custom-slide.container-slide.full-screen]
 === Dashboard
 

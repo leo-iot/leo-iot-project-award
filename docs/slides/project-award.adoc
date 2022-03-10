@@ -1,0 +1,41 @@
+[.custom-slide.title-slide]
+= Leo IOT
+ifndef::imagesdir[:imagesdir: ../images]
+:customcss: ./style/project-award.css
+
+image:logo_with_background.png[logo, 50%]
+
+[.custom-slide.container-slide]
+== Why
+
+[.custom-slide.container-slide.columns.full-screen]
+=== Corona Virus + Air Quality
+
+image:project-award/corona.png[]
+
+[.custom-slide.container-slide]
+=== Loudness in Classes
+
+[.custom-slide.container-slide]
+=== Window Open
+
+[.custom-slide.container-slide]
+== Lösung
+
+[.custom-slide.container-slide]
+== Preview
+
+[.custom-slide.container-slide.full-screen]
+=== Dashboard
+
+++++
+<iframe src="http://vm139.htl-leonding.ac.at/en/dashboard"></iframe>
+++++
+
+[.custom-slide.container-slide.full-screen]
+=== 3d Model
+
+++++
+<iframe src="http://vm139.htl-leonding.ac.at/en/3d"></iframe>
+++++
+

@@ -51,6 +51,7 @@ img {
     border: none !important;
     background: none !important;
     box-shadow: none !important;
+    margin: 0 !important;
 }
 
 .reveal .controls button div,
@@ -137,9 +138,14 @@ img {
     overflow: hidden;
 }
 
-.container-slide.full-screen img {
-    aspect-ratio: 16/9;
-    height: unset !important;
+.container-slide p {
+    margin: 0 !important;
+}
+
+.container-slide p > .image {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .container-slide.full-screen h2 {

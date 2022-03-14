@@ -6,27 +6,45 @@ ifndef::imagesdir[:imagesdir: ../images]
 image:logo_with_background.png[logo, 50%]
 
 [.custom-slide.container-slide]
-== Why
+== Solution
 
 [.custom-slide.container-slide.columns.full-screen]
 === Corona Virus + Air Quality
 
 image:project-award/corona.png[]
 
-[.custom-slide.container-slide]
-=== Loudness in Classes
+[.custom-slide.container-slide.full-screen]
+=== Noise in Classes
 
-[.custom-slide.container-slide]
+image:project-award/covering_ears.png[]
+
+[.custom-slide.container-slide.full-screen]
 === Window Open
 
+image:project-award/open_window.png[]
+
 [.custom-slide.container-slide]
-== Lösung
+== Loesung
+
+[.custom-slide.container-slide.full-screen]
+=== LeoBox
+
+image:project-award/leobox.png[]
+
+[.custom-slide.container-slide.full-screen.no-fit]
+=== Interaction
+
+image:project-award/simple_architecture.png[]
 
 [.custom-slide.container-slide]
 == Preview
 
-[.custom-slide.container-slide]
+[.custom-slide.container-slide.theater]
 === LeoBox
+
+++++
+<iframe src="http://vm139.htl-leonding.ac.at:8080"></iframe>
+++++
 
 [.custom-slide.container-slide.full-screen]
 === Dashboard
@@ -42,3 +60,10 @@ image:project-award/corona.png[]
 <iframe src="http://vm139.htl-leonding.ac.at/en/3d"></iframe>
 ++++
 
+[.custom-slide.container-slide]
+== Structure
+
+=== Modules
+
+* Server
+* Backend

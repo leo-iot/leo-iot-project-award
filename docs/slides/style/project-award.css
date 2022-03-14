@@ -54,6 +54,11 @@ img {
     margin: 0 !important;
 }
 
+iframe {
+    width: 100% !important;
+    height: 100% !important;
+}
+
 .reveal .controls button div,
 .reveal .controls button div:after,
 .reveal .controls button div:before {
@@ -75,8 +80,8 @@ img {
 .custom-slide {
     padding: 0 !important;
     margin: 0 !important;
-    height: 50% !important;
-    width: 50% !important;
+    height: 70% !important;
+    width: 70% !important;
     top: unset !important;
 }
 
@@ -138,12 +143,14 @@ img {
     overflow: hidden;
 }
 
-.container-slide p {
+.container-slide.full-screen p {
     margin: 0 !important;
 }
 
-.container-slide p > .image {
-    display: block;
+.container-slide.full-screen p > .image {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
     width: 100% !important;
     height: 100% !important;
 }
@@ -152,3 +159,20 @@ img {
     display: none !important;
 }
 
+.container-slide.full-screen p > .image img {
+    object-fit: cover;
+}
+
+.container-slide.full-screen.no-fit p > .image img {
+    object-fit: fill !important;
+    width: 60% !important;
+    height: auto !important;
+}
+
+.container-slide.theater * {
+}
+
+.container-slide.theater .slide-content {
+    width: 80% !important;
+    height: 80% !important;
+}

@@ -6,7 +6,7 @@ ifndef::imagesdir[:imagesdir: ../images]
 image:logo_with_background.png[logo, 50%]
 
 [.custom-slide.container-slide]
-== Solution
+== Why ?
 
 [.custom-slide.container-slide.columns.full-screen]
 === Corona Virus + Air Quality
@@ -24,7 +24,7 @@ image:project-award/covering_ears.png[]
 image:project-award/open_window.png[]
 
 [.custom-slide.container-slide]
-== Loesung
+== Solution
 
 [.custom-slide.container-slide.full-screen]
 === LeoBox
@@ -43,7 +43,7 @@ image:project-award/simple_architecture.png[]
 === LeoBox
 
 ++++
-<iframe src="http://vm139.htl-leonding.ac.at:8080"></iframe>
+<iframe src="http://oravm.implodium.at"></iframe>
 ++++
 
 [.custom-slide.container-slide.full-screen]
@@ -63,8 +63,14 @@ image:project-award/simple_architecture.png[]
 [.custom-slide.container-slide]
 == Structure
 
-[.custom-slide.container-slide]
+[.custom-slide.container-slide.full-screen.no-fit]
+=== Architecture
+
+image:design/architecture.png[architecture, 700]
+
+[.custom-slide.container-slide.horizontal-list]
 === Modules
 
-* Server
-* Backend
+* image:design/leoserver.png[] Web
+* image:design/leoserver.png[] Server
+* image:design/leoserver.png[] Database

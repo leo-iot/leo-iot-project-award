@@ -6,6 +6,9 @@ ifndef::imagesdir[:imagesdir: ../images]
 image:logo_with_background.png[logo, 50%]
 
 [.custom-slide.container-slide]
+== Prototype -> Product
+
+[.custom-slide.container-slide]
 == Why ?
 
 [.custom-slide.container-slide.columns.full-screen]
@@ -37,7 +40,7 @@ image:project-award/leobox.png[]
 image:project-award/simple_architecture.png[]
 
 [.custom-slide.container-slide]
-== Preview
+== Live Demo
 
 [.custom-slide.container-slide.theater]
 === LeoBox
@@ -69,8 +72,35 @@ image:project-award/simple_architecture.png[]
 image:design/architecture.png[architecture, 700]
 
 [.custom-slide.container-slide.horizontal-list]
-=== Modules
+=== Server Stack Modules
 
 * image:design/leoserver.png[] Web
 * image:design/leoserver.png[] Server
 * image:design/leoserver.png[] Database
+
+[.custom-slide.container-slide]
+=== GO -> Quarkus
+
+[.custom-slide.container-slide]
+== Development and Deployment Strategy
+
+[.custom-slide.container-slide.theater]
+=== Module Development
+
+image:project-award/git-policy-module.png[]
+
+[.custom-slide.container-slide.theater]
+=== Core Development
+
+image:project-award/git-policy-core.png[]
+
+[.custom-slide.container-slide]
+== Summary
+
+* ✔️ Prototype
+* ✔️ Product Structure
+* ✔️ Deployment Strategy
+* ( ) Weiterentwicklung
+
+
+== Ich stehe für fragen zur Verfügung

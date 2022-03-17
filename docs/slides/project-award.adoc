@@ -63,6 +63,7 @@ image:project-award/simple_architecture.png[]
 [.custom-slide.container-slide]
 == Structure
 
+[.custom-slide.container-slide]
 === Modules
 
 * Server

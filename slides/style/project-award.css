@@ -51,6 +51,12 @@ img {
     border: none !important;
     background: none !important;
     box-shadow: none !important;
+    margin: 0 !important;
+}
+
+iframe {
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .reveal .controls button div,
@@ -74,8 +80,8 @@ img {
 .custom-slide {
     padding: 0 !important;
     margin: 0 !important;
-    height: 50% !important;
-    width: 50% !important;
+    height: 70% !important;
+    width: 70% !important;
     top: unset !important;
 }
 
@@ -137,12 +143,36 @@ img {
     overflow: hidden;
 }
 
-.container-slide.full-screen img {
-    aspect-ratio: 16/9;
-    height: unset !important;
+.container-slide.full-screen p {
+    margin: 0 !important;
+}
+
+.container-slide.full-screen p > .image {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .container-slide.full-screen h2 {
     display: none !important;
 }
 
+.container-slide.full-screen p > .image img {
+    object-fit: cover;
+}
+
+.container-slide.full-screen.no-fit p > .image img {
+    object-fit: fill !important;
+    width: 60% !important;
+    height: auto !important;
+}
+
+.container-slide.theater * {
+}
+
+.container-slide.theater .slide-content {
+    width: 80% !important;
+    height: 80% !important;
+}

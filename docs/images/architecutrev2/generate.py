@@ -3,7 +3,7 @@ from diagrams.custom import Custom
 from diagrams.programming.framework import Angular
 
 with Diagram(show=False, direction='LR'):
-    with Cluster("LEO-IOT"):
+    with Cluster("LEO-IOT-Server"):
         leo_backend = Custom("Backend", "quarkus-logo.jpg")
 
         leo_frontend = Angular("Frontend")
@@ -23,7 +23,7 @@ with Diagram(show=False, direction='LR'):
         postgres = Custom("Database", "postgres_logo.png")
         leo_sim >> postgres
 
-    with Cluster("vm90"):
+    with Cluster("Mqtt-Server"):
         mosquitto = Custom("Mqtt-Broker", "mosquitto_logo.png")
 
     with Cluster("5AHIF"):

@@ -1,0 +1,29 @@
+[.title-slide]
+= Leo IOT
+:customcss: custom-base.css
+ifndef::imagesdir[:imagesdir: ../images]
+
+image:logo_with_background.png[logo, 80%]
+
+[.lightbg,background-opacity="0.7",background-video=tired-students.mp4,background-video-loop="true"]
+== Situation
+
+--
+* Lange Schultage
+* Schlechte Luft
+* Mangelnde Konzentration
+--
+
+[.lightbg,background-opacity="0.7",background-image=leo-box-02.jpeg]
+== Wie lösen wir so ein problem?
+
+* Luftqualität messen mittels Sensorboxen
+* Warnungen bei schlechten Werten mittels einer Ampel
+
+[.lightbg,background-opacity="0.7",background-image=leo-box-01.jpeg]
+== Leo Box
+
+== Live Demo
+
+== System Architecture
+image:architecutrev2/diagrams_image.png[architecture]
